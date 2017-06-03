@@ -1,4 +1,4 @@
-var request = require('supertest');
+var request = require('supertest').agent(app.listen());
 var app = require('../main.js');
  
 describe('GET /', function() {
