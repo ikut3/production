@@ -5,7 +5,7 @@ var app = express();
 
 var util = require('./utils');
 var mongoose = require('mongoose');
-
+module.exports = app;
 /**
  * Require databse configuration depending on environment
  */
@@ -38,7 +38,7 @@ mongoose.connect(connectionString, options);
 
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('hello world');
 });
 
 app.get('/health', function (req, res) {
