@@ -21,6 +21,7 @@
     "glob": "^7.1.2",
     "supports-color": "^3.2.3",
     "mkdirp": "^0.5.1",
-    "lodash.create": "^4.2.0"
+    "lodash.create": "^4.2.0",
+    "node-dogstatsd": "^0.0.6"
   }
 }

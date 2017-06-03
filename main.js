@@ -5,6 +5,9 @@ var app = express();
 
 var util = require('./utils');
 var mongoose = require('mongoose');
+var StatsD = require('node-dogstatsd').StatsD;
+var dogstatsd = new StatsD();
+dogstatsd.increment('page.views')
 module.exports = app;
 /**
  * Require databse configuration depending on environment
