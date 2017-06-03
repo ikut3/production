@@ -38,7 +38,7 @@ mongoose.connect(connectionString, options);
 
 
 app.get('/', function (req, res) {
-  res.send('Hello World1!');
+  res.send('Hello World!');
 });
 
 app.get('/health', function (req, res) {
