@@ -38,11 +38,11 @@ mongoose.connect(connectionString, options);
 
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello World3!');
 });
 
 app.get('/health', function (req, res) {
-  res.send('All good');
+  res.send('All good3');
 });
 
 app.listen(3000, function () {
