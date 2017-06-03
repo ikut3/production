@@ -42,7 +42,7 @@ mongoose.connect(connectionString, options);
 
 
 app.get('/', function (req, res) {
-  res.send('hello world');
+  res.send('This is production');
 });
 
 app.get('/health', function (req, res) {
