@@ -1,8 +1,11 @@
 #!/bin/sh
 ssh prod@ch.ilawyer.vn <<EOF
-cd /opt/prod/production
+ssh root@localhost -p 2210 
+echo "Testing code from Staging Branch"
+cd /opt/production
+git checkout Staging
 git pull
 npm install
-cd /opt/prod/production/node_modules/mocha/bin
-./mocha /opt/prod/production/test/test.js
+cd /opt/production/node_modules/mocha
+./bin/mocha /opt/prod/production/test/test.js
 EOF
