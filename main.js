@@ -2,20 +2,21 @@
 
 var express = require('express');
 var app = express();
-
+var dotenv = require('dotenv');
 var util = require('./utils');
 var mongoose = require('mongoose');
 var StatsD = require('node-dogstatsd').StatsD;
 var dogstatsd = new StatsD();
 dogstatsd.increment('page.views')
 module.exports = app;
+dotenv.load();
 /**
  * Require databse configuration depending on environment
  */
 var conf = {
   development: {
-    servers: [['127.0.0.1', 27017]],
-    database: 'db_name',
+    servers: [[process.env.DATABASE_DEV_IP, process.env.DATABASE_DEV_PORT]],
+    database: process.env.DATABASE_NAME,
     user: '',
     password: '',
     replicaSet: null,
@@ -48,6 +49,6 @@ app.get('/health', function (req, res) {
   res.send('All good');
 });
 
-app.listen(3000, function () {
+app.listen(process.env.PORT, function () {
   console.log('Example app listening on port 3000!');
 });
