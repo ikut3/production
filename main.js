@@ -49,6 +49,6 @@ app.get('/health', function (req, res) {
   res.send('All good');
 });
 
-app.listen(process.env.PORT, function () {
+app.listen(process.env.PORT, 'localhost', function () {
   console.log('Example app listening on port 3000!');
 });
