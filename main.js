@@ -42,11 +42,11 @@ mongoose.connect(connectionString, options);
 
 
 app.get('/', function (req, res) {
-  res.send('hello myfriend');
+  res.send('This is a production system');
 });
 
 app.get('/health', function (req, res) {
-  res.send('All good');
+  res.send("All good2);
 });
 
 app.listen(process.env.PORT, 'localhost', function () {
