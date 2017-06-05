@@ -129,7 +129,7 @@ After near 20 times change script, test again and again. I can make sure that my
 One of them is when I run this test I get a complaint about the app object not having a method named address. So I have to 
 call http.js project in scope. I have modified our main.js like  
 
-```module.exports = app;``
+```module.exports = app;```
 
 2. How can we manage environment variables in Node.js ? 
 
@@ -175,5 +175,5 @@ DATABASE_PASSWORD=27018
 PORT=3000
 ```
 
-#The End
+# The End
 As indicated by your scroll bar being very tiny right now.I would like to tell you more about monitoring, securing which I implemented on this system. Hopefully I can explain by talking better than continue writing article
