@@ -3,9 +3,7 @@
 
 ## 1. Building beautiful architecture together
 
-I was so excited since WizeLine(WL) team gave me many challenges to resolve their real issues which have similar, I did everyday on environment. I couldn't stop thinking about it after We have quick discussion
-to hear their explanation about these exact things to do. More than their meaningful description which they provided I realized that We may be don't live in same Country, don't study in same University but it doesn't matter when We have same passion for technology. 
-I want to take this chance to send my appreciation to Leon, HR team & Recuritment company whoever gave me this opportunity to have 3 rounds interview (Take around more than 3 hours for discussing, 4 hours for resolve pratices, 18 hours for this challenge only)
+I was so excited since WizeLine(WL) team gave me this challenge to resolve the real issues in DevOps world. That was similar with these things I have been done in my carreer path. Since We have quick discussion to hear the explanation on these exact things to do, I was not stop thinking about it. More than their meaningful description which they provided I realized that We may be don't live in same Country, don't study in same University but it doesn't matter when We have same passion for technology. I want to take this chance to send my appreciation to Leon, HR team & Recuritment company whoever gave me this opportunity to have 3 rounds interview (Take around more than 3 hours for discussing, 4 hours for resolving pratices, 18 hours for this challenge only)
 
 **Disclaim** : This is the story of a long journey
 
@@ -21,7 +19,7 @@ In our theory about building scalability systems, We always hear their(our teach
 
 I spinned up 1 machine at Digital Ocean with 2GB Ram & 40GB hardisk. Centos 7. My SSH publickey added under root account 
 
-### What is our backend ? What do they do ? 
+### What kind of our backend ? 
 
 Unfortunately, WizeLine has gave me opportunity to develop NODEJS application as backend which I never have knowledge on this programing language. But my teacher google have, So I believe He can teach me within 18 hours challenge.
 
